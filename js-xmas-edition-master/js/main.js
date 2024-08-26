@@ -8,7 +8,7 @@ function validarCiudad (ciudad){
 
 const descripcionRegalo=document.formulario['descripcion-regalo'].value;
 function validarDescripcionRegalo (descripcionRegalo){
-    if (descripcionRegalo=''){
+    if (descripcionRegalo===''){
         return 'Tenes que pedir algo si o si!'
     }
     return '';
