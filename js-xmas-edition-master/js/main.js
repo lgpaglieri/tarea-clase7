@@ -1,6 +1,6 @@
 const ciudad=document.formulario.ciudad.value;
 function validarCiudad (ciudad){
-    if (ciudad==='Selecciona...'){
+    if (ciudad===''){
         return 'Para poder enviar el formulario es necesario seleccionar una ciudad'
     }
     return '';
